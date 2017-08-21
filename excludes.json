@@ -1,5 +1,5 @@
 {
-  "LicenseChecker" : [
+  "LicenseRewriter" : [
     "**/node_modules",
     "**/.git",
     "**/resources/**",

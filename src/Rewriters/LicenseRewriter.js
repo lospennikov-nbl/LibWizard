@@ -227,7 +227,7 @@ class LicenseRewriter extends AbstractRewriter {
    * @param {JSON} settings for exclude file. '' for default
    */
   set excludeList(settings) {
-    const filenames = settings.LicenseChecker;
+    const filenames = settings.LicenseRewriter;
     // filters not empty strings, and makes regular expression from template
     const patterns = filenames.map((value) => value.trimLeft()) // trim for "is commented" check
       .filter((value) => (value != '' && value[0] != '#'))
