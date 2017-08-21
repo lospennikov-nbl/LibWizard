@@ -118,7 +118,7 @@ class LicenseRewriter extends AbstractRewriter {
           break;
         }
 
-      } else if (commentsType = '//') {
+      } else if (commentsType == '//') {
 
         if (line.startsWith('//')) {
           year = this._findYear(line, year);
@@ -128,12 +128,13 @@ class LicenseRewriter extends AbstractRewriter {
           break; // end
         }
 
-      } else if (commentsType = '/*') {
+      } else if (commentsType == '/*') {
         year = this._findYear(line, year);
         hasLicense = hasLicense || this._findLicense(line);
         let index;
-        if (index = line.indexOf('*/') > -1) {
+        if ((index = line.indexOf('*/')) > -1) {
           licenseLines.push(line.substring(0, index).trim());
+          lines[i] = line.substring(index + 2);
           break;
         }
         if (line.startsWith('*')) {
