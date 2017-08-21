@@ -1,0 +1,4 @@
+node_modules
+_private
+.idea
+.builder-cache

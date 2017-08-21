@@ -1,0 +1,27 @@
+{
+  "name": "lib-wizard",
+  "version": "0.0.1",
+  "description": "A tool for 3'd party libra\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C Eleс\u001b[2~с�е�ctric imp tool for 3'd party libary validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobitlost/LibWizard.git"
+  },
+  "keywords": [
+    "license",
+    "ElectricImp"
+  ],
+  "author": "Lev Ospennikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nobitlost/LibWizard/issues"
+  },
+  "homepage": "https://github.com/nobitlost/LibWizard#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "git-clone-or-pull": "^2.2.0"
+  }
+}
